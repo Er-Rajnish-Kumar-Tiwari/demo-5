@@ -1,112 +1,79 @@
-import React, { useState, useEffect } from 'react';
-import { FaGem, FaRedoAlt } from 'react-icons/fa';
-import { useNavigate, useLocation } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+
+const slides = [
+  {
+    image:
+      "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+    title: "FROM SOIL TO SOLAR",
+    subtitle: "Crafting India's Sustainable Journey",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
+    title: "POWERING AGRICULTURE",
+    subtitle: "Clean Energy for a Greener Tomorrow",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    title: "SUSTAINABLE SOLUTIONS",
+    subtitle: "Technology That Empowers Farmers",
+  },
+];
 
 const HeroSection = () => {
-  const [activeTab, setActiveTab] = useState('web-dashboard');
-  const navigate = useNavigate();
-  const location = useLocation();
+  const [current, setCurrent] = useState(0);
 
-  // Refresh + URL change par active tab set karo
   useEffect(() => {
-    const path = location.pathname.replace("/", "");
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % slides.length);
+    }, 4000);
 
-    switch (path) {
-      case "overview":
-        setActiveTab("overview");
-        break;
-      case "incidents":
-        setActiveTab("incidents");
-        break;
-      case "settings":
-        setActiveTab("settings");
-        break;
-      default:
-        setActiveTab("web-dashboard");
-    }
-  }, [location.pathname]);
-
-  // Tab styles
-  const tabStyles = (tabName) => {
-    const isActive = activeTab === tabName;
-    return `
-      py-3 px-6 text-sm font-medium transition-all duration-300 rounded-lg
-      ${isActive 
-        ? 'bg-sky-700/30 text-white'
-        : 'bg-transparent text-gray-300 hover:text-white hover:bg-sky-700/30'
-      }
-    `;
-  };
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <div className="bg-[#0b203a] flex flex-col font-sans">
-      
-      <main className="flex-grow flex flex-col justify-start items-center pt-16 pb-10 px-4">
-        
-        {/* Hero Text Section */}
-        <div className="text-center mb-12">
-          <h2
-            className="text-5xl font-bold mb-4 leading-tight"
-            style={{
-              background: 'linear-gradient(to right, #e879f9, #a855f7)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}
-          >
-            Protect Your Digital Assets
-          </h2>
+    <div className="relative w-full h-[90vh] overflow-hidden">
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 transition-opacity duration-1000 ${
+            index === current ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          {/* Background Image */}
+          <img
+            src={slide.image}
+            alt="hero"
+            className="w-full h-full object-cover"
+          />
 
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Monitor domains and email addresses for dark web exposure and data breaches in real-time
-          </p>
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/40 flex items-center justify-center text-center px-4">
+            <div className="text-white">
+              <h1 className="text-3xl md:text-5xl font-bold mb-4 tracking-wide">
+                {slide.title}
+              </h1>
+              <p className="text-lg md:text-xl text-gray-200">
+                {slide.subtitle}
+              </p>
+            </div>
+          </div>
         </div>
+      ))}
 
-        {/* Navigation Tabs */}
-        <nav className="bg-blue-900/30 p-1 rounded-xl shadow-2xl flex space-x-1 w-full max-w-md justify-between text-sm">
-
+      {/* Dots */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3">
+        {slides.map((_, index) => (
           <button
-            className={tabStyles('web-dashboard')}
-            onClick={() => {
-              setActiveTab('web-dashboard');
-              navigate('/web-dashboard');
-            }}
-          >
-            Dashboard
-          </button>
-
-          <button
-            className={tabStyles('overview')}
-            onClick={() => {
-              setActiveTab('overview');
-              navigate('/overview');
-            }}
-          >
-            Overview
-          </button>
-
-          <button
-            className={tabStyles('incidents')}
-            onClick={() => {
-              setActiveTab('incidents');
-              navigate('/incidents');
-            }}
-          >
-            Incidents
-          </button>
-
-          <button
-            className={tabStyles('settings')}
-            onClick={() => {
-              setActiveTab('settings');
-              navigate('/settings');
-            }}
-          >
-            Settings
-          </button>
-
-        </nav>
-
-      </main>
+            key={index}
+            onClick={() => setCurrent(index)}
+            className={`w-3 h-3 rounded-full ${
+              index === current ? "bg-white" : "bg-white/50"
+            }`}
+          />
+        ))}
+      </div>
     </div>
   );
 };
