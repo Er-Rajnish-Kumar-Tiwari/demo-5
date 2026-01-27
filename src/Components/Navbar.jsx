@@ -22,6 +22,7 @@ const Navbar = () => {
         >
           <FaInfoCircle />
           About
+          
         </a>
 
         <a
