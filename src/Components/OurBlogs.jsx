@@ -15,7 +15,7 @@ const blogs = [
     id: 2,
     title: "Understanding Soil pH and Its Impact on Crop Productivity",
     image:
-      "https://images.unsplash.com/photo-1592982537447-6b81f55a2f22",
+      "https://images.unsplash.com/photo-1581092160562-40aa08e78837",
     author: "richpc",
     date: "March 24, 2025",
   },
@@ -32,7 +32,7 @@ const blogs = [
 
 const OurBlogs = () => {
   return (
-    <section className="w-full py-10 bg-white relative overflow-hidden">
+    <section className="w-full py-10 bg-gray-200 relative overflow-hidden">
       {/* Heading */}
       <div className="text-center mb-8">
         <p className="text-green-600 font-semibold uppercase tracking-wide">
@@ -46,8 +46,8 @@ const OurBlogs = () => {
       {/* Content */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 px-6">
         {/* Left Blogs */}
-        <div className="lg:col-span-2 space-y-6">
-          {blogs.slice(0, 2).map((blog) => (
+        <div className="lg:col-span-2 space-y-2">
+          {blogs.slice(0, 3).map((blog) => (
             <div
               key={blog.id}
               className="flex bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition"

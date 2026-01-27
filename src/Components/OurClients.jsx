@@ -9,22 +9,22 @@ const clients = [
   {
     id: 2,
     name: "Government of Assam",
-    img: "https://assam.gov.in/o/assam-theme/images/emblem-dark.png",
+    img: "https://cdn-icons-png.flaticon.com/512/1693/1693746.png",
   },
   {
     id: 3,
     name: "CREDA",
-    img: "https://credachhattisgarh.in/wp-content/uploads/2021/03/CREDA-Logo.png",
+    img: "https://www.iocl.com/assets/images/logo.png",
   },
   {
     id: 4,
     name: "TEDA",
-    img: "https://teda.tn.gov.in/sites/default/files/logo.png",
+    img: "https://cdn-icons-png.flaticon.com/512/1693/1693746.png",
   },
   {
     id: 5,
     name: "DGVCL",
-    img: "https://www.dgvcl.com/Content/images/logo.png",
+    img: "https://www.iocl.com/assets/images/logo.png",
   },
   {
     id: 6,

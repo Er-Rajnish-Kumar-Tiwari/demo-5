@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaBolt,
 } from "react-icons/fa";
+import logo from "../logo.png";
 
 const Footer = () => {
   return (
@@ -13,19 +14,11 @@ const Footer = () => {
 
         {/* Company Info */}
         <div>
-          <div className="flex items-center gap-1 mb-4">
-            <h2 className="text-md font-bold">
-              INTEGRATED POWER SOLUTION
-            </h2>
-          </div>
-          <p className="text-gray-300 text-sm leading-relaxed">
-            We believe in delivering reliable and sustainable power solutions
-            using modern technology for a better and greener future.
-          </p>
+            <img src={logo} alt="Logo" className="h-auto object-contain" />
         </div>
 
         {/* Solar Solutions */}
-        <div>
+        <div className="mt-16">
           <h3 className="font-semibold mb-4 uppercase tracking-wide">
             Solar Solutions
           </h3>
@@ -38,7 +31,7 @@ const Footer = () => {
         </div>
 
         {/* Agro Products */}
-        <div>
+        <div className="mt-16">
           <h3 className="font-semibold mb-4 uppercase tracking-wide">
             Agro Products
           </h3>
@@ -50,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/* Contact */}
-        <div>
+        <div className="mt-16">
           <h3 className="font-semibold mb-4 uppercase tracking-wide">
             Contact Us
           </h3>

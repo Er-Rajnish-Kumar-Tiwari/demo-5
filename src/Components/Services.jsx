@@ -39,7 +39,7 @@ const Services = () => {
             </p>
 
             <button className="bg-green-600 text-white px-6 py-3 text-sm rounded-md hover:bg-green-700 transition">
-              Explore More
+              <a href="/services">Discover Solar Solutions</a>
             </button>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Services = () => {
             </p>
 
             <button className="bg-green-600 text-white px-6 py-3 text-sm rounded-md hover:bg-green-700 transition">
-              Explore More
+              <a href="/services">Explore Agro Products</a>
             </button>
           </div>
 

@@ -2,31 +2,31 @@ import React from "react";
 
 const certifications = [
   {
-    img: "https://via.placeholder.com/220x280.png?text=ISO+14001",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnvVxVrsRSljWhCehvdeDBpvpDkklXIvIyw&s",
     title: "ISO 14001 Valid up to 2022",
   },
   {
-    img: "https://via.placeholder.com/220x280.png?text=Enlistment+Letter",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnvVxVrsRSljWhCehvdeDBpvpDkklXIvIyw&s",
     title: "TNEB Enlistment Letter",
   },
   {
-    img: "https://via.placeholder.com/220x280.png?text=ISO+9001",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnvVxVrsRSljWhCehvdeDBpvpDkklXIvIyw&s",
     title: "ISO 9001 Valid up to 2022",
   },
   {
-    img: "https://via.placeholder.com/220x280.png?text=ISO+45001",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnvVxVrsRSljWhCehvdeDBpvpDkklXIvIyw&s",
     title: "ISO 45001 Valid up to 2022",
   },
   {
-    img: "https://via.placeholder.com/220x280.png?text=MNRE+Partner",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnvVxVrsRSljWhCehvdeDBpvpDkklXIvIyw&s",
     title: "MNRE Channel Partner Certificate",
   },
   {
-    img: "https://via.placeholder.com/220x280.png?text=CRISIL",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnvVxVrsRSljWhCehvdeDBpvpDkklXIvIyw&s",
     title: "CRISIL Certificate",
   },
   {
-    img: "https://via.placeholder.com/220x280.png?text=Achievement",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnvVxVrsRSljWhCehvdeDBpvpDkklXIvIyw&s",
     title: "Prestigious CI Award for Rooftop Solar Excellence",
   },
 ];
@@ -110,9 +110,9 @@ const CertificationsAndStats = () => {
           India and continuing to grow with strong service presence.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
           {/* States */}
-          <div className="grid grid-cols-2 gap-6 text-sm">
+          <div className="grid grid-cols-2 gap-2 text-sm">
             <ul className="space-y-2">
               <li>• Tamil Nadu</li>
               <li>• Kerala</li>
@@ -134,7 +134,7 @@ const CertificationsAndStats = () => {
           {/* India Map */}
           <div className="flex justify-center">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/3/3c/India_states_blank_map.svg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTppKZbncM5DErpWBQIEqoKzisiE_MxLoJQ8Q&s"
               alt="India Map"
               className="max-w-sm"
             />

@@ -46,7 +46,7 @@ const AboutComponent = () => {
           </p>
 
           <button className="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition">
-            More About Us
+            <a href="/about">Learn More About Us</a>
           </button>
         </div>
       </div>

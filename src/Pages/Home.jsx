@@ -13,6 +13,9 @@ const Home = () => {
         <HeroSection/>
         <AboutComponent/>
         <Services/>
+        <OurValues/>
+        <OurClients/>
+        <OurBlogs/>
     </div>
   )
 }

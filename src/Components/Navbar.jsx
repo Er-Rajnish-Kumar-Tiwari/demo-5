@@ -1,9 +1,10 @@
 import React from "react";
-import { FaBolt, FaInfoCircle, FaPhoneAlt } from "react-icons/fa";
+import { FaBolt, FaInfoCircle, FaPhoneAlt, FaEnvelope, FaUser } from "react-icons/fa";
+import logo from "../logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-white shadow-md px-8 py-6 flex items-center justify-between">
+    <nav className="w-full bg-indigo-200 shadow-md px-8 py-6 flex items-center justify-between">
       
       {/* Logo + Company Name */}
       <div className="flex items-center gap-2">
@@ -16,7 +17,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <div className="flex items-center gap-8">
         <a
-          href="/abouts"
+          href="/about"
           className="flex items-center gap-2 text-gray-700 hover:text-green-600 font-medium"
         >
           <FaInfoCircle />
@@ -24,11 +25,27 @@ const Navbar = () => {
         </a>
 
         <a
-          href="/contacts"
+          href="/contact"
           className="flex items-center gap-2 text-gray-700 hover:text-green-600 font-medium"
         >
           <FaPhoneAlt />
           Contact
+        </a>
+
+        <a
+          href="/services"
+          className="flex items-center gap-2 text-gray-700 hover:text-green-600 font-medium"
+        >
+          <FaEnvelope />
+          Services
+        </a>
+
+        <a
+          href="/testimonials"
+          className="flex items-center gap-2 text-gray-700 hover:text-green-600 font-medium"
+        >
+          <FaUser />
+          Testimonials
         </a>
       </div>
     </nav>
