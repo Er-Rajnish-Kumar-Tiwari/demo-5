@@ -4,14 +4,14 @@ const testimonials = [
   {
     id: 1,
     text:
-      "Rich Phytocare facilitated our transition to solar-powered water pumping seamlessly. Their team ensured reliable water access without electricity costs. Truly committed to sustainability.",
+      "INTEGRATED POWER SOLUTION facilitated our transition to solar-powered water pumping seamlessly. Their team ensured reliable water access without electricity costs. Truly committed to sustainability.",
     name: "Arjun Nair",
     city: "Kochi",
   },
   {
     id: 2,
     text:
-      "Investing in solar high mast lighting with Rich Phytocare transformed our community. Safe, eco-friendly and reliable lighting.",
+      "Investing in solar high mast lighting with INTEGRATED POWER SOLUTION transformed our community. Safe, eco-friendly and reliable lighting.",
     name: "Priya Sundar",
     city: "Chennai",
   },
@@ -25,7 +25,7 @@ const testimonials = [
   {
     id: 4,
     text:
-      "Rich Phytocare helped us reduce energy costs while improving farm productivity. Great experience overall.",
+      "INTEGRATED POWER SOLUTION helped us reduce energy costs while improving farm productivity. Great experience overall.",
     name: "Sandeep Verma",
     city: "Indore",
   },
@@ -79,7 +79,7 @@ const TestimonialsPage = () => {
             What Our Clients Say
           </h2>
           <p className="text-black max-w-2xl mx-auto">
-            Real stories from people who trusted Rich Phytocare for sustainable
+            Real stories from people who trusted INTEGRATED POWER SOLUTION for sustainable
             solar solutions.
           </p>
         </div>

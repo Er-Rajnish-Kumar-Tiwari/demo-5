@@ -11,7 +11,7 @@ const Services = () => {
             Our Services
           </p>
           <h2 className="text-3xl font-bold mb-2">
-            Rich Phytocare’s Sustainable Offerings
+            INTEGRATED POWER SOLUTION’s Sustainable Offerings
           </h2>
           <div className="w-12 h-1 bg-green-600 mx-auto mt-4"></div>
         </div>

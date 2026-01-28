@@ -106,7 +106,7 @@ const CertificationsAndStats = () => {
           Our Sales & Services
         </h2>
         <p className="text-center text-sm text-gray-600 mb-12 max-w-3xl mx-auto">
-          Over the years Rich Phytocare has been expanding its operations across
+          Over the years INTEGRATED POWER SOLUTION has been expanding its operations across
           India and continuing to grow with strong service presence.
         </p>
 

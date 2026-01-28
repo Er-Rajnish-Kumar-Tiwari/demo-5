@@ -38,7 +38,7 @@ const About = () => {
           {/* Content */}
           <div>
             <h6 className="text-green-600 font-semibold uppercase mb-2">
-              Rich Phytocare Leading the Way In
+              INTEGRATED POWER SOLUTION Leading the Way In
             </h6>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               Cultivating a Greener Tomorrow
@@ -58,7 +58,7 @@ const About = () => {
             </div>
 
             <p className="text-gray-700 mb-4 leading-relaxed">
-              At Rich Phytocare, we believe in harmonizing agro wisdom and
+              At INTEGRATED POWER SOLUTION, we believe in harmonizing agro wisdom and
               cutting-edge technology for the betterment of our planet and its
               people. Born from a deep respect for the land and a commitment to
               sustainable progress, we serve as a bridge between modern
@@ -66,7 +66,7 @@ const About = () => {
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              Rich Phytocare is not just a business; it is a movement towards a
+              INTEGRATED POWER SOLUTION is not just a business; it is a movement towards a
               more sustainable, eco-friendly India. We aim to revolutionize the
               way farming and energy consumption are viewed, bringing a holistic
               approach to modern challenges.
@@ -82,13 +82,13 @@ const About = () => {
               Our Heritage
             </h6>
             <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Rich Phytocare
+              INTEGRATED POWER SOLUTION
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed">
               Although the globe grows on its orbit, its dynamism and vibrancy
               depend on the pathways of growth. Gifted with an instinct to
-              understand this greatness of nature, Rich Phytocare brings the
+              understand this greatness of nature, INTEGRATED POWER SOLUTION brings the
               promising potential in the field of agriculture and green energy.
             </p>
 
