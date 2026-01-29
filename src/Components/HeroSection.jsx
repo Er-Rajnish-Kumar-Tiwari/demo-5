@@ -4,22 +4,23 @@ const slides = [
   {
     image:
       "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
-    title: "FROM SOIL TO SOLAR",
-    subtitle: "Crafting India's Sustainable Journey",
+    title: "INTEGRATED POWER SOLUTIONS",
+    subtitle: "Reliable Solar Energy Systems Since 2010",
   },
   {
     image:
       "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
-    title: "POWERING AGRICULTURE",
-    subtitle: "Clean Energy for a Greener Tomorrow",
+    title: "POWERING HOMES & BUSINESSES",
+    subtitle: "Cost-Effective Solar Solutions for Residential, Commercial & Industrial Needs",
   },
   {
     image:
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    title: "SUSTAINABLE SOLUTIONS",
-    subtitle: "Technology That Empowers Farmers",
+    title: "CLEAN • SUSTAINABLE • FUTURE READY",
+    subtitle: "500+ Successful Solar Projects Across India",
   },
 ];
+
 
 const HeroSection = () => {
   const [current, setCurrent] = useState(0);

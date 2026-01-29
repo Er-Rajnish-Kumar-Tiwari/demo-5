@@ -4,46 +4,47 @@ const testimonials = [
   {
     id: 1,
     text:
-      "INTEGRATED POWER SOLUTION facilitated our transition to solar-powered water pumping seamlessly. Their team ensured reliable water access without electricity costs. Truly committed to sustainability.",
+      "Integrated Power Solutions enabled a smooth transition to solar-powered water pumping at our site. The system is reliable, cost-effective, and has significantly reduced our electricity expenses.",
     name: "Arjun Nair",
-    city: "Kochi",
+    city: "Kochi, Kerala",
   },
   {
     id: 2,
     text:
-      "Investing in solar high mast lighting with INTEGRATED POWER SOLUTION transformed our community. Safe, eco-friendly and reliable lighting.",
+      "The solar high mast lighting project delivered by Integrated Power Solutions has greatly improved safety and visibility in our area. The quality of work and execution was excellent.",
     name: "Priya Sundar",
-    city: "Chennai",
+    city: "Chennai, Tamil Nadu",
   },
   {
     id: 3,
     text:
-      "Excellent service and top-quality solar products. Their installation team was professional and responsive throughout the project.",
+      "We are extremely satisfied with the solar installation services. The team was professional, punctual, and used high-quality components throughout the project.",
     name: "Ramesh Patel",
-    city: "Ahmedabad",
+    city: "Ahmedabad, Gujarat",
   },
   {
     id: 4,
     text:
-      "INTEGRATED POWER SOLUTION helped us reduce energy costs while improving farm productivity. Great experience overall.",
+      "Integrated Power Solutions helped us reduce energy costs while ensuring uninterrupted power for our agricultural operations. Their technical expertise is truly commendable.",
     name: "Sandeep Verma",
-    city: "Indore",
+    city: "Indore, Madhya Pradesh",
   },
   {
     id: 5,
     text:
-      "From consultation to execution, everything was smooth. Their solar solutions are reliable and future-ready.",
+      "From initial consultation to final commissioning, the entire process was seamless. Their solar solutions are reliable, efficient, and future-ready.",
     name: "Anita Roy",
-    city: "Kolkata",
+    city: "Kolkata, West Bengal",
   },
   {
     id: 6,
     text:
-      "Very satisfied with the solar lighting project. Maintenance support is excellent and timely.",
+      "Excellent after-sales service and timely maintenance support. Integrated Power Solutions stands out for its commitment to quality and customer satisfaction.",
     name: "Mohammed Ali",
-    city: "Hyderabad",
+    city: "Hyderabad, Telangana",
   },
 ];
+
 
 const TestimonialsPage = () => {
   const [index, setIndex] = useState(0);

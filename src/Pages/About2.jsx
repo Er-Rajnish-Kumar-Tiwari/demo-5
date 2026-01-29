@@ -76,25 +76,25 @@ const CertificationsAndStats = () => {
         </h2>
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-6">
-          {/* Agro */}
+          {/* Experience */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Agro</h3>
+            <h3 className="text-lg font-semibold mb-6">Experience & Reach</h3>
             <div className="grid grid-cols-2 gap-6">
-              <Stat number="650+" label="Dealers" />
-              <Stat number="45+" label="Agri Products" />
-              <Stat number="17+" label="Years Industrial Presence" />
-              <Stat number="3+" label="State Presence" />
+              <Stat number="14+" label="Years of Experience" />
+              <Stat number="500+" label="Projects Completed" />
+              <Stat number="3+" label="Client Segments" />
+              <Stat number="5+" label="States Served" />
             </div>
           </div>
 
           {/* Solar */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Solar</h3>
+            <h3 className="text-lg font-semibold mb-6">Solar Installations</h3>
             <div className="grid grid-cols-2 gap-6">
-              <Stat number="16000+" label="Customers" />
-              <Stat number="7000+" label="Solar Water Pumps" />
-              <Stat number="7000+" label="Microgrid Systems" />
-              <Stat number="60+" label="MW Total Installation" />
+              <Stat number="500+" label="Happy Customers" />
+              <Stat number="3000+" label="Solar Panels Installed" />
+              <Stat number="1000+" label="KW Installed Capacity" />
+              <Stat number="24/7" label="Service & Support" />
             </div>
           </div>
         </div>
@@ -106,8 +106,9 @@ const CertificationsAndStats = () => {
           Our Sales & Services
         </h2>
         <p className="text-center text-sm text-gray-600 mb-12 max-w-3xl mx-auto">
-          Over the years INTEGRATED POWER SOLUTION has been expanding its operations across
-          India and continuing to grow with strong service presence.
+          Over the years, Integrated Power Solutions has expanded its solar
+          operations across multiple states in India, delivering reliable
+          installations and strong after-sales service support.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
@@ -119,15 +120,13 @@ const CertificationsAndStats = () => {
               <li>• Karnataka</li>
               <li>• Andhra Pradesh</li>
               <li>• Telangana</li>
-              <li>• Uttar Pradesh</li>
             </ul>
             <ul className="space-y-2">
+              <li>• Gujarat</li>
+              <li>• Maharashtra</li>
               <li>• Odisha</li>
               <li>• Chhattisgarh</li>
               <li>• Assam</li>
-              <li>• Gujarat</li>
-              <li>• Meghalaya</li>
-              <li>• Maharashtra</li>
             </ul>
           </div>
 
@@ -136,7 +135,7 @@ const CertificationsAndStats = () => {
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTppKZbncM5DErpWBQIEqoKzisiE_MxLoJQ8Q&s"
               alt="India Map"
-              className="max-w-sm"
+              className="max-w-sm opacity-90"
             />
           </div>
         </div>

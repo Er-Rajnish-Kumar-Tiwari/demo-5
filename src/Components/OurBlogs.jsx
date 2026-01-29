@@ -22,7 +22,7 @@ const blogs = [
   {
     id: 3,
     title:
-      "Reliable Power for Hospitals: Rich Phytocare Panels Reduce Costs & Outages",
+      "Reliable Power for Hospitals: INTEGRATED POWER SOLUTION Panels Reduce Costs & Outages",
     image:
       "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc",
     author: "richpc",

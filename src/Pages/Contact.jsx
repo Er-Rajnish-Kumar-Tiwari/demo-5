@@ -92,19 +92,19 @@ const Contact = () => {
               <div className="flex gap-4">
                 <FaMapMarkerAlt className="text-green-600 mt-1" />
                 <p>
-                  FLAT 2B, Mahalakshmi Enclaves, D.NO 26 Tank Bund Road,
-                  Nungambakkam, Chennai – 600 034, Tamil Nadu, India
+                  797/2, Kakkan Street, Madipakkam, Chennai – 600091, Tamil
+                  Nadu, India
                 </p>
               </div>
 
               <div className="flex gap-4">
                 <FaPhoneAlt className="text-green-600 mt-1" />
-                <p>04546 285887</p>
+                <p>+91 98402 79503</p>
               </div>
 
               <div className="flex gap-4">
                 <FaEnvelope className="text-green-600 mt-1" />
-                <p>enquiry@richphytocare.com</p>
+                <p>ipssolarenergy@gmail.com</p>
               </div>
             </div>
           </div>
@@ -113,8 +113,8 @@ const Contact = () => {
         {/* Map Section */}
         <div className="mt-20 shadow-lg rounded overflow-hidden">
           <iframe
-            title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6575241032717!2d80.2319459751238!3d13.071953590668573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267d5c3b7f6df%3A0x1f6f1f6d3f6d3f6d!2sNungambakkam%2C%20Chennai%2C%20Tamil%20Nadu%20600034!5e0!3m2!1sen!2sin!4v1700020000000!5m2!1sen!2sin"
+            title="Integrated Power Solutions Location"
+            src="https://www.google.com/maps?q=Madipakkam,Chennai,Tamil+Nadu+600091&output=embed"
             className="w-full h-[350px] border-0"
             allowFullScreen=""
             loading="lazy"

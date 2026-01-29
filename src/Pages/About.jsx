@@ -38,10 +38,10 @@ const About = () => {
           {/* Content */}
           <div>
             <h6 className="text-green-600 font-semibold uppercase mb-2">
-              INTEGRATED POWER SOLUTION Leading the Way In
+              Integrated Power Solutions – Leading the Way in Solar Energy
             </h6>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Cultivating a Greener Tomorrow
+              Powering a Cleaner & Sustainable Tomorrow
             </h2>
 
             {/* Tabs */}
@@ -58,18 +58,16 @@ const About = () => {
             </div>
 
             <p className="text-gray-700 mb-4 leading-relaxed">
-              At INTEGRATED POWER SOLUTION, we believe in harmonizing agro wisdom and
-              cutting-edge technology for the betterment of our planet and its
-              people. Born from a deep respect for the land and a commitment to
-              sustainable progress, we serve as a bridge between modern
-              innovation and traditional agricultural values.
+              Integrated Power Solutions, established in 2010, is a leading
+              provider of solar energy systems offering end-to-end solutions for
+              residential, commercial, and industrial clients across India.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              INTEGRATED POWER SOLUTION is not just a business; it is a movement towards a
-              more sustainable, eco-friendly India. We aim to revolutionize the
-              way farming and energy consumption are viewed, bringing a holistic
-              approach to modern challenges.
+              With over 500+ successful solar projects, we specialize in system
+              design, installation, servicing, and maintenance using
+              high-quality components from Tier 1 and Tier 2 manufacturers to
+              ensure long-term performance and energy savings.
             </p>
           </div>
         </div>
@@ -79,24 +77,24 @@ const About = () => {
           {/* Text */}
           <div>
             <h6 className="text-green-600 font-semibold uppercase mb-2">
-              Our Heritage
+              Our Legacy
             </h6>
             <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              INTEGRATED POWER SOLUTION
+              Integrated Power Solutions
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Although the globe grows on its orbit, its dynamism and vibrancy
-              depend on the pathways of growth. Gifted with an instinct to
-              understand this greatness of nature, INTEGRATED POWER SOLUTION brings the
-              promising potential in the field of agriculture and green energy.
+              For more than 14 years, Integrated Power Solutions has been
+              committed to making solar energy affordable and accessible. Our
+              journey is driven by innovation, technical expertise, and a strong
+              belief in sustainable development.
             </p>
 
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Agriculture is & has always been the most positive adventure, the
-              noblest interaction of humanity with nature. We have always
-              believed in eco-balance and sustainability while preserving
-              nature’s wealth for future generations.
+              We strive to reduce energy costs for our customers while
+              contributing to a cleaner environment. By combining technology
+              with responsible practices, we help build a greener future for
+              generations to come.
             </p>
 
             <button className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition">
@@ -114,7 +112,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <CertificationsAndStats/>
+
+      <CertificationsAndStats />
     </div>
   );
 };
