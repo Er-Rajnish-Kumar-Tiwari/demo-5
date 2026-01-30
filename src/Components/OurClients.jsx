@@ -24,12 +24,12 @@ const clients = [
   {
     id: 5,
     name: "DGVCL",
-    img: "https://www.iocl.com/assets/images/logo.png",
+    img: "https://pvgroup.pl/wp-content/uploads/2024/01/logo-deye-300x225.webp",
   },
   {
     id: 6,
     name: "Power Utility",
-    img: "https://cdn-icons-png.flaticon.com/512/1693/1693746.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqCxN1dPEm0EmRwqc1phXBXoh6wE4Opbb_SgBmmDVgHWpvkCyet_lvWo&s=10",
   },
 ];
 
