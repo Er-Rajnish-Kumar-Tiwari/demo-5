@@ -23,7 +23,7 @@ const Services = () => {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBUTL9ISZJoRBiCzGMlv25TnsT_-ETvTTQwg&s"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxe0ne2C250s9g5bCLsOtPm00mI5AbU30njg&s"
               alt="Solar Service"
               className="w-[320px] md:w-[420px] drop-shadow-xl"
             />
@@ -69,7 +69,7 @@ const Services = () => {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9XOTE5IztG4eDXEHu2Iith45Ivng5eJhlw&s"
+              src="https://www.shutterstock.com/image-photo/clean-energy-transportation-wind-turbine-600nw-2460260159.jpg"
               alt="Agro Service"
               className="w-[320px] md:w-[420px] drop-shadow-xl"
             />

@@ -41,30 +41,6 @@ const Stat = ({ number, label }) => (
 const CertificationsAndStats = () => {
   return (
     <div className="w-full">
-      {/* CERTIFICATIONS */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
-        <h2 className="text-center font-bold text-lg mb-12 uppercase tracking-wide">
-          Certifications
-        </h2>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {certifications.map((item, index) => (
-            <div
-              key={index}
-              className="border rounded-md p-3 shadow hover:shadow-lg transition"
-            >
-              <img
-                src={item.img}
-                alt={item.title}
-                className="w-full h-[260px] object-cover"
-              />
-              <p className="text-center text-sm mt-3 font-medium">
-                {item.title}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* GENERATION CAPACITY */}
       <section

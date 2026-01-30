@@ -29,7 +29,7 @@ const About = () => {
           {/* Image */}
           <div>
             <img
-              src="https://picsum.photos/seed/agro/600/400"
+              src="https://plus.unsplash.com/premium_photo-1679917152773-588c2a0a9ad7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBlbGVjdHJpY2l0eXxlbnwwfHwwfHx8MA%3D%3D"
               alt="Green Energy"
               className="rounded-lg shadow-lg"
             />
@@ -48,12 +48,6 @@ const About = () => {
             <div className="flex gap-4 mb-6">
               <button className="bg-green-600 text-white px-4 py-2 rounded text-sm">
                 About Company
-              </button>
-              <button className="border border-gray-300 px-4 py-2 rounded text-sm hover:bg-gray-100">
-                Our Mission
-              </button>
-              <button className="border border-gray-300 px-4 py-2 rounded text-sm hover:bg-gray-100">
-                Our Vision
               </button>
             </div>
 
@@ -105,7 +99,7 @@ const About = () => {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+              src="https://images.unsplash.com/photo-1508791290064-c27cc1ef7a9a?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xlYW4lMjBlbmVyZ3l8ZW58MHx8MHx8fDA%3D"
               alt="Solar Energy"
               className="rounded-lg shadow-lg max-w-sm"
             />

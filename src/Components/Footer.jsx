@@ -43,11 +43,26 @@ const Footer = () => {
     </ul>
 
     {/* Social Icons */}
-    <div className="flex gap-4 text-lg">
-      <FaFacebookF className="hover:text-green-400 cursor-pointer" />
-      <FaInstagram className="hover:text-green-400 cursor-pointer" />
-      <FaLinkedinIn className="hover:text-green-400 cursor-pointer" />
-    </div>
+<div className="flex gap-4 text-lg">
+  <a
+    href="https://www.facebook.com/profile.php?id=61586722840250"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-green-400 cursor-pointer"
+  >
+    <FaFacebookF />
+  </a>
+
+  <a
+    href="https://www.instagram.com/ipssolarsolutions/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-green-400 cursor-pointer"
+  >
+    <FaInstagram />
+  </a>
+</div>
+
   </div>
 </div>
 

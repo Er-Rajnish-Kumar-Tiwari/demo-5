@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const testimonials = [
   {
@@ -48,6 +49,7 @@ const testimonials = [
 
 const TestimonialsPage = () => {
   const [index, setIndex] = useState(0);
+  const navigate =useNavigate();
 
   // auto slide
   useEffect(() => {
@@ -130,8 +132,8 @@ const TestimonialsPage = () => {
           Join hundreds of happy customers using clean & renewable energy.
         </p>
         <a
-          href="/contact"
-          className="inline-block bg-green-700 text-white px-8 py-3 rounded-full hover:bg-green-800 transition"
+          onClick={()=>navigate("/contact")}
+          className="inline-block bg-green-700 text-white px-8 py-3 rounded-full hover:bg-green-800 transition cursor-pointer"
         >
           Contact Us
         </a>
