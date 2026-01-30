@@ -99,7 +99,7 @@ const Contact = () => {
 
               <div className="flex gap-4">
                 <FaPhoneAlt className="text-green-600 mt-1" />
-                <p>+91 98402 79503</p>
+                <p>+91 95830 95130</p>
               </div>
 
               <div className="flex gap-4">
