@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBolt, FaInfoCircle, FaPhoneAlt, FaEnvelope, FaUser } from "react-icons/fa";
-import logo from "../logo.png";
+import logo from "../logo1.png";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,9 +10,8 @@ const Navbar = () => {
       
       {/* Logo + Company Name */}
       <div className="flex items-center gap-2">
-        <FaBolt className="text-green-600 text-2xl" />
         <a className="text-xl font-bold text-gray-800 cursor-pointer" onClick={()=>navigate('/')}>
-          INTEGRATED POWER SOLUTION
+          <img src={logo} alt="Company Logo" className="h-14 w-30 inline-block mr-2" />
         </a>
       </div>
 

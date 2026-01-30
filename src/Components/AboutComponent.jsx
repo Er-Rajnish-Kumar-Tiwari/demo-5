@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const AboutComponent = () => {
+  const navigate=useNavigate();
   return (
     <section className="w-full bg-white">
       {/* TOP ABOUT SECTION */}
@@ -9,14 +11,9 @@ const AboutComponent = () => {
         <div className="flex justify-center">
           <div className="relative w-72 h-72 animate-spin-slow">
             <img
-              src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9FFudIfDGVQSg8WUnF0DU93GAmabEsSVtEA&s"
               alt="solar agriculture"
               className="absolute inset-0 w-full h-full object-cover rounded-full shadow-xl"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
-              alt="farm"
-              className="absolute inset-0 w-full h-full object-cover rounded-full rotate-45 opacity-80"
             />
           </div>
         </div>
@@ -46,7 +43,7 @@ const AboutComponent = () => {
           </p>
 
           <button className="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition">
-            <a href="/about">Learn More About Us</a>
+            <a onClick={() => navigate("/about")}>Learn More About Us</a>
           </button>
         </div>
       </div>
@@ -78,16 +75,14 @@ const AboutComponent = () => {
           {/* Right Image */}
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9"
+              src="https://oswalsolar.com/wp-content/uploads/2023/06/Harnessing-Solar-Energy-for-a-Sustainable-Future.jpg"
               alt="solar home"
               className="w-full object-cover h-[400px]"
             />
 
             {/* Play Button */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg cursor-pointer">
-                ▶
-              </div>
+              
             </div>
           </div>
         </div>

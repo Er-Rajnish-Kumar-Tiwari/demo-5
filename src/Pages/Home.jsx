@@ -15,9 +15,6 @@ const Home = () => {
         <Services/>
         <OurValues/>
         <OurClients/>
-        <OurBlogs/>
-        
-
     </div>
   )
 }

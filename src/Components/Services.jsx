@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
+  const navigate=useNavigate();
+
   return (
     <section className="w-full bg-white py-6">
       <div className="max-w-7xl mx-auto px-6">
@@ -20,7 +23,7 @@ const Services = () => {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBUTL9ISZJoRBiCzGMlv25TnsT_-ETvTTQwg&s"
               alt="Solar Service"
               className="w-[320px] md:w-[420px] drop-shadow-xl"
             />
@@ -39,7 +42,7 @@ const Services = () => {
             </p>
 
             <button className="bg-green-600 text-white px-6 py-3 text-sm rounded-md hover:bg-green-700 transition">
-              <a href="/services">Discover Solar Solutions</a>
+              <a onClick={() => navigate("/services")}>Discover Solar Solutions</a>
             </button>
           </div>
         </div>
@@ -59,14 +62,14 @@ const Services = () => {
             </p>
 
             <button className="bg-green-600 text-white px-6 py-3 text-sm rounded-md hover:bg-green-700 transition">
-              <a href="/services">Explore Our Services</a>
+              <a onClick={() => navigate("/services")}>Explore Our Services</a>
             </button>
           </div>
 
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src="https://picsum.photos/seed/agro/600/400"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9XOTE5IztG4eDXEHu2Iith45Ivng5eJhlw&s"
               alt="Agro Service"
               className="w-[320px] md:w-[420px] drop-shadow-xl"
             />

@@ -3,19 +3,19 @@ import React, { useEffect, useState } from "react";
 const slides = [
   {
     image:
-      "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+      "https://img.freepik.com/free-photo/wind-energy-with-wind-turbines-background_53876-124631.jpg?semt=ais_hybrid&w=740&q=80",
     title: "INTEGRATED POWER SOLUTIONS",
     subtitle: "Reliable Solar Energy Systems Since 2010",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
+      "https://media.istockphoto.com/id/521106845/photo/sustainable-energy-concept.jpg?s=612x612&w=0&k=20&c=nud9e2tkX2JhLb1kKhQmEani-sv6cM5RQ8WBN9KS6hs=",
     title: "POWERING HOMES & BUSINESSES",
     subtitle: "Cost-Effective Solar Solutions for Residential, Commercial & Industrial Needs",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "https://thumbs.dreamstime.com/b/harnessing-solar-power-innovative-energy-saving-solutions-sustainable-future-367094883.jpg",
     title: "CLEAN • SUSTAINABLE • FUTURE READY",
     subtitle: "500+ Successful Solar Projects Across India",
   },

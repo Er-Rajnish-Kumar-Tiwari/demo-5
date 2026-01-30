@@ -4,22 +4,22 @@ const clients = [
   {
     id: 1,
     name: "Indian Oil",
-    img: "https://www.iocl.com/assets/images/logo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5w-YNEVqf4z_zFxBLA27M95Pw3qjvqOH3JQ&s",
   },
   {
     id: 2,
     name: "Government of Assam",
-    img: "https://cdn-icons-png.flaticon.com/512/1693/1693746.png",
+    img: "https://www.festasolar.com/assets/img/festa-logo.png",
   },
   {
     id: 3,
     name: "CREDA",
-    img: "https://www.iocl.com/assets/images/logo.png",
+    img: "https://brandlogos.net/wp-content/uploads/2022/06/jsw_steel-logo_brandlogos.net_msrec.png",
   },
   {
     id: 4,
     name: "TEDA",
-    img: "https://cdn-icons-png.flaticon.com/512/1693/1693746.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPU9RzArjtkccQK9fvarpXLRPc4VnLITCAYw&s",
   },
   {
     id: 5,
